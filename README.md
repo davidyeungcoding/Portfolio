@@ -1,3 +1,3 @@
 # Portfolio
 
-https://yeungpirate.github.io/Portfolio/.
+https://yeungpirate.github.io/Portfolio/
