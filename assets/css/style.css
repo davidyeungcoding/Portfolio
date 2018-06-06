@@ -8,11 +8,7 @@
     list-style-position: inside;
 }
 
-.left:first-child {
-    margin-left: 0;
-}
-
-.left {
+.additionalSocial {
     margin-left: 1em;
 }
 
@@ -23,5 +19,51 @@ body {
 }
 
 main {
-flex: 1 0 auto;
+    flex: 1 0 auto;
+}
+
+.additionalLink {
+    margin-left: 1em;
+}
+
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #eeff41 !important;
+    box-shadow: 0 1px 0 0 #e0e0e0 !important;
+}
+
+label.textField.active {
+    color: #9e9e9e !important;
+}
+
+.prefix.active {
+    color: #eeff41 !important;
+}
+
+i {
+    color: #afb42b;
+}
+
+.socialLinks,
+.submitBtn {
+    color: #eeff41;
+}
+
+p,
+.responsibilities {
+    font-family: 'Goudy Bookletter 1911', serif;
+    font-size: 18px;
+}
+
+h1,
+h5 {
+    font-family: 'Slabo 27px', serif;
+}
+
+.brand-logo,
+.navLink {
+    font-family: 'IBM Plex Sans Condensed', sans-serif;
+}
+
+.revealLink {
+    bottom: 0 !important;
 }

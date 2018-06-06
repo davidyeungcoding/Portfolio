@@ -8,25 +8,63 @@
     <link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Goudy+Bookletter+1911|IBM+Plex+Sans+Condensed|Slabo+27px" rel="stylesheet">
     <link rel='stylesheet' type='text/css' href='assets/css/style.css'>
     <title>Contact</title>
 </head>
 <body>
 
-    <nav>
-        <div class='nav-wrapper'>
+    <nav class='lime darken-2'>
+        <div class='nav-wrapper '>
             <a href='index.html' class='left brand-logo'>David Yeung</a>
             <ul id='nav-mobile' class='right'>
-                <li class='waves-effect'><a href='index.html'>About Me</a></li>
-                <li class='waves-effect'><a href='portfolio.html'>Portfolio</a></li>
-                <li class='waves-effect active'><a href='contact.html'>Contact</a></li>
+                <li class='navLink waves-effect waves-light'><a href='index.html'>About Me</a></li>
+                <li class='navLink waves-effect waves-light'><a href='portfolio.html'>Portfolio</a></li>
+                <li class='navLink waves-effect waves-light active'><a href='contact.html'>Contact</a></li>
             </ul>
         </div>
     </nav>
 
+    <div class='container'>
+        <h1>Contact</h1>
+        <div class='divider'></div>
+        <div class='section'></div>
+        <div class='row'>
+            <form class='col s12'>
+                <div class='row'>
+                    <div class='input-field col s12 l6'>
+                        <i class='material-icons prefix'>account_box</i>
+                        <input id='first_name' type='text'>
+                        <label class='textField' for='first_name'>First Name</label>
+                    </div>
+                    <div class='input-field col s12 l6'>
+                        <i class='material-icons prefix'></i>
+                        <input id='last_name' type='text'>
+                        <label class='textField' for='last_name'>Last Name</label>
+                    </div>
+                </div>
+                <div class='row'>
+                    <div class='input-field col s12'>
+                        <i class='material-icons prefix'>contact_mail</i>
+                        <input id='contactEmail' type='text'>
+                        <label class='textField' for='contactEmail'>Email</label>
+                    </div>
+                </div>
+                <div class='row'>
+                    <div class='input-field col s12'>
+                        <i class='material-icons prefix'>insert_comment</i>
+                        <input id='message' type='text'>
+                        <label class='textField' for='message'>Message</label>
+                    </div>
+                </div>
+                <button class='btn waves-effect waves-light lime darken-2' type='submit' name='action'>Submit
+                    <i class='material-icons left submitBtn'>send</i>
+                </button>
+            </form>
+        </div>
+    </div>
 
-
-    <footer class='page-footer'>
+    <footer class='page-footer lime darken-2'>
         <div class='container'>
             <div class='row'>
                 <div class='col l8 s12'>
@@ -35,8 +73,8 @@
                 <div class='col l4 s12'>
                     <h5>Social</h5>
                     <ul id='social'>
-                        <li class='left'><a href='https://github.com/yeungpirate' target='_blank' alt='GitHub'><i class='fab fa-github-square fa-4x'></i></a></li>
-                        <li class='left'><a href='https://www.linkedin.com/in/david-yeung-7214395a/' target='_blank' alt='LinkedIn'><i class='fab fa-linkedin fa-4x'></i></a></li>
+                        <li class='left'><a href='https://github.com/yeungpirate' target='_blank' alt='GitHub'><i class='fab fa-github-square fa-4x socialLinks'></i></a></li>
+                        <li class='left additionalSocial'><a href='https://www.linkedin.com/in/david-yeung-7214395a/' target='_blank' alt='LinkedIn'><i class='fab fa-linkedin fa-4x socialLinks'></i></a></li>
                     </ul>
                 </div>
             </div>
