@@ -1,0 +1,27 @@
+.nav-wrapper {
+    width: 80%;
+    margin: auto;
+}
+
+.responsibilities > li {
+    list-style-type: circle !important;
+    list-style-position: inside;
+}
+
+.left:first-child {
+    margin-left: 0;
+}
+
+.left {
+    margin-left: 1em;
+}
+
+body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+main {
+flex: 1 0 auto;
+}
