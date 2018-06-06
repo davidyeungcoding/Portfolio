@@ -27,7 +27,7 @@ main {
 }
 
 .input-field input[type=text]:focus {
-    border-bottom: 1px solid #eeff41 !important;
+    border-bottom: 1px solid #cddc39 !important;
     box-shadow: 0 1px 0 0 #e0e0e0 !important;
 }
 
@@ -36,7 +36,7 @@ label.textField.active {
 }
 
 .prefix.active {
-    color: #eeff41 !important;
+    color: #cddc39 !important;
 }
 
 i {
@@ -55,15 +55,13 @@ p,
 }
 
 h1,
-h5 {
+h5,
+.brand-logo,
+.navLink {
     font-family: 'Slabo 27px', serif;
 }
 
-.brand-logo,
-.navLink {
-    font-family: 'IBM Plex Sans Condensed', sans-serif;
-}
-
+/* not working */
 .revealLink {
     bottom: 0 !important;
 }
